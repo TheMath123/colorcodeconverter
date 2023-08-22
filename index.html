@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Code Converter</title>
+  </head>
+  <body>
+    <select id="conversionType">
+      <option value="hexToFlutter">Hex to Flutter</option>
+      <option value="rgbToHex">RGB to Hex</option>
+      <option value="flutterToHex">Flutter to Inverse Hex</option>
+    </select>
+
+    <input type="text" id="colorInput" placeholder="Entrada de Cor" />
+    <button onclick="convertColor()">Convert</button>
+    <p id="result"></p>
+    <div
+      id="colorBox"
+      style="width: 50px; height: 50px; border: 1px solid black"
+    ></div>
+    <script src="./main.js"></script>
+  </body>
+</html>
